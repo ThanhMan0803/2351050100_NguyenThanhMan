@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="reset_undo_arrow_icon_1490061" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\reset_undo_arrow_icon_149006.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="italic_icon-icons.com_70938" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\italic_icon-icons.com_70938.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print-printer-tool-with-printed-paper-outlined-symbol_icon-icons.com_57772" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\print-printer-tool-with-printed-paper-outlined-symbol_icon-icons.com_57772.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="infor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\infor.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontsize_120317" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\fontsize_120317.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pastefile_122799" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\pastefile_122799.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="direct_normal_icon_241342" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\direct_normal_icon_241342.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redo_circular_arrow_icon_icons_com_56886" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\redo-circular-arrow_icon-icons.com_56886.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_icon-icons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\exit_icon-icons.com_70975.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1904659_arrow_backup_down_download_save_storage_transfer_122509" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1904659-arrow-backup-down-download-save-storage-transfer_122509.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="select_all_icon_132738" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\select_all_icon_132738.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new_window_icon_143730" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\new_window_icon_143730.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\cut.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\new.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gui_text_color_icon_157009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\gui_text_color_icon_157009.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_icon-icons.com_70975" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\exit_icon-icons.com_70975.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gui_print_preview_icon_157060" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\gui_print_preview_icon_157060.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="schedule_school_date_time_month_icon_208752" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\schedule_school_date_time_month_icon_208752.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="align_justify_icon_250537" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\align_justify_icon_250537.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saveas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\saveas.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\new.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print-printer-tool-with-printed-paper-outlined-symbol_icon-icons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\print-printer-tool-with-printed-paper-outlined-symbol_icon-icons.com_57772.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3643772_archive_archives_document_folder_open_113445" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3643772-archive-archives-document-folder-open_113445.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print_printer_tool_with_printed_paper_outlined_symbol_icon_icons_com_57772" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print-printer-tool-with-printed-paper-outlined-symbol_icon-icons.com_57772.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy-two-paper-sheets-interface-symbol_icon-icons.com_73283" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\copy-two-paper-sheets-interface-symbol_icon-icons.com_73283.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="align_left_icon_128959" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\align_left_icon_128959.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redo-circular-arrow_icon-icons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\redo-circular-arrow_icon-icons.com_56886.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_36211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\save_3621.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_3621" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\save_3621.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redo-circular-arrow_icon-icons.com_56886" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\redo-circular-arrow_icon-icons.com_56886.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3643772-archive-archives-document-folder-open_113445" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\3643772-archive-archives-document-folder-open_113445.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reference_icon-icons.com_67958" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\reference_icon-icons.com_67958.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strike_through_icon_148699" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\strike_through_icon_148699.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text-align-center_icon-icons.com_48217" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\text-align-center_icon-icons.com_48217.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_icon_icons_com_70975" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_icon-icons.com_70975.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reset_undo_arrow_icon_149006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\reset_undo_arrow_icon_149006.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="align-right_icon-icons.com_72381" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\align-right_icon-icons.com_72381.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bold_icon_125363" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\bold_icon_125363.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="underline_icon_143488" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\underline_icon_143488.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3643772-archive-archives-document-folder-open_1134451" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\3643772-archive-archives-document-folder-open_113445.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moon_dark_mode_night_mode_icon_190939" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ICONS\moon_dark_mode_night_mode_icon_190939.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

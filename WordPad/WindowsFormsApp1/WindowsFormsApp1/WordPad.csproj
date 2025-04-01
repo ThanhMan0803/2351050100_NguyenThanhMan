@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FEFABA7B-68C1-4F3C-9E67-D4CF6EA64928}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>read_book_study_icon-icons.com_51077.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1904659-arrow-backup-down-download-save-storage-transfer_122509.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3643772-archive-archives-document-folder-open_113445.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_icon-icons.com_70975.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gui_print_preview_icon_157060.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print-printer-tool-with-printed-paper-outlined-symbol_icon-icons.com_57772.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo-circular-arrow_icon-icons.com_56886.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_undo_arrow_icon_149006.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_3621.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_all_icon_132738.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ICONS\gui_text_color_icon_157009.ico" />
+    <None Include="bin\Debug\ICONS\fontsize_120317.ico" />
+    <None Include="bin\Debug\ICONS\strike_through_icon_148699.ico" />
+    <None Include="bin\Debug\ICONS\underline_icon_143488.ico" />
+    <None Include="bin\Debug\ICONS\italic_icon-icons.com_70938.ico" />
+    <None Include="bin\Debug\ICONS\bold_icon_125363.ico" />
+    <None Include="bin\Debug\ICONS\direct_normal_icon_241342.ico" />
+    <None Include="bin\Debug\ICONS\schedule_school_date_time_month_icon_208752.ico" />
+    <None Include="bin\Debug\ICONS\reference_icon-icons.com_67958.ico" />
+    <None Include="bin\Debug\ICONS\print-printer-tool-with-printed-paper-outlined-symbol_icon-icons.com_57772.ico" />
+    <None Include="bin\Debug\ICONS\saveas.ico" />
+    <None Include="bin\Debug\ICONS\select_all_icon_132738.ico" />
+    <None Include="bin\Debug\ICONS\save_3621.ico" />
+    <None Include="bin\Debug\ICONS\reset_undo_arrow_icon_149006.ico" />
+    <None Include="bin\Debug\ICONS\redo-circular-arrow_icon-icons.com_56886.ico" />
+    <None Include="bin\Debug\ICONS\gui_print_preview_icon_157060.ico" />
+    <None Include="bin\Debug\ICONS\exit_icon-icons.com_70975.ico" />
+    <None Include="bin\Debug\ICONS\3643772-archive-archives-document-folder-open_113445.ico" />
+    <None Include="bin\Debug\ICONS\new.ico" />
+    <None Include="bin\Debug\ICONS\cut.ico" />
+    <None Include="bin\Debug\ICONS\copy-two-paper-sheets-interface-symbol_icon-icons.com_73283.ico" />
+    <None Include="bin\Debug\ICONS\pastefile_122799.ico" />
+    <None Include="bin\Debug\ICONS\align_justify_icon_250537.ico" />
+    <None Include="bin\Debug\ICONS\align-right_icon-icons.com_72381.ico" />
+    <None Include="bin\Debug\ICONS\align_left_icon_128959.ico" />
+    <None Include="bin\Debug\ICONS\text-align-center_icon-icons.com_48217.ico" />
+    <None Include="bin\Debug\ICONS\new_window_icon_143730.ico" />
+    <None Include="bin\Debug\ICONS\infor.ico" />
+    <None Include="bin\Debug\ICONS\moon_dark_mode_night_mode_icon_190939.ico" />
+    <Content Include="read_book_study_icon-icons.com_51077.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
